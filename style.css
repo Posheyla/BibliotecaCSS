@@ -1,0 +1,91 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.btn{
+    background-color:rgb(32, 143, 143);
+    color:beige;
+    box-shadow: 5px 5px black;
+    border-radius: 5px;
+    height: 20px;
+    width: 150px;
+}
+.boton{
+    display: flex;
+    justify-content: flex-end;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin:5px;
+
+}
+.col{
+    flex: 1;
+    background-color: rgb(34, 167, 155);
+    color:white;
+    margin:5px;
+    padding: 20px;
+
+}
+.col-2{
+    flex: 2;
+    background-color: rgb(34, 167, 155);
+    color:white;
+    margin:5px;
+    padding: 20px;
+
+}
+.col-3{
+    flex: 3;
+    background-color: rgb(34, 167, 155);
+    color:white;
+    margin:5px;
+    padding: 20px;
+}
+.nav{
+    background-color: rgb(58, 57, 57);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+.nav-title{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+}
+.active{
+    width: bold;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.btn2{
+    color: white;
+    background-color: rgb(10, 214, 214);
+    border: 1px solid black;
+    box-shadow: 5px 5px black;
+    margin-right: 20px;
+}
